@@ -1,0 +1,119 @@
+page{
+  background-color: #f4f5f7;
+  font-size: 28rpx;
+}
+.push_content{
+  width: 100%;
+  min-height: 430rpx;
+  background-color: #fff;
+  padding: 25rpx 50rpx 24rpx 50rpx;
+  box-sizing: border-box;
+}
+.push_content1{
+  font-size: 30rpx;
+  color: #4c4c4c;
+  font-weight: bold;
+  margin-bottom: 47rpx;
+}
+.section textarea{
+  width: 100%;
+}
+/* 选择相册中的图片或者拍照 */
+.upload-view{
+  margin-top: 65rpx;
+}
+.image{
+  width: 121rpx;
+  height: 121rpx;
+  display: inline-block;
+}
+.image image{
+  width: 121rpx;
+  height: 121rpx;
+  display: inline-block;
+}
+.ui_uploader_item{
+  display: inline-block;
+  position: relative;
+}
+icon{
+  position: absolute;
+  top: -15rpx;
+  right: 12rpx;
+}
+.special-image{
+  height: 130rpx;
+  width: 130rpx;
+  display: inline-block;
+  margin-right: 30rpx;
+}
+/* .addphoto_box{
+  margin-top: 60rpx;
+}
+.addphoto1{
+  width: 121rpx;
+  height: 121rpx;
+  display: inline-block;
+}
+.addphoto2{
+  height: 130rpx;
+  width: 130rpx;
+  display: inline-block;
+  margin-right: 30rpx;
+} */
+/* 联系人 */
+.lianxiren{
+  width: 100%;
+  height: 90rpx;
+  background-color: #fff;
+  padding: 25rpx 56rpx;
+  box-sizing: border-box;
+  margin-top: 20rpx;
+  display: flex;
+}
+
+.lianxiren input{
+  display: inline-block;
+}
+.read{
+  color: #4c4c4c;
+  margin-left: 57rpx;
+  margin-top: 25rpx;
+}
+.read text:nth-of-type(2){
+  color: #0081fb;
+}
+.readyuan {
+  display: inline-block;
+  width: 34rpx;
+  height: 34rpx;
+  line-height: 34rpx;
+  border-radius: 50%;
+  background-color: #858686;
+  color: #fff;
+  text-align: center;
+  margin-right: 20rpx;
+}
+.readyuanactive{
+  display: inline-block;
+  width: 34rpx;
+  height: 34rpx;
+  line-height: 34rpx;
+  border-radius: 50%;
+  color: #fff;
+  text-align: center;
+  margin-right: 20rpx;
+  background-color: #0095fa;
+}
+.addphoto_footer{
+  width: 80%;
+  margin: auto;
+  height: 90rpx;
+  line-height: 90rpx;
+  text-align: center;
+  font-size: 32rpx;
+  color: #fff;
+  background-image: linear-gradient(to right, #007ffb , #01adf8);
+  border-radius: 25rpx;
+  margin-top: 70rpx;
+}
